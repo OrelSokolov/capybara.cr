@@ -1,0 +1,18 @@
+name: capybara_cr
+version: 0.1.0
+crystal: ">= 1.21.0"
+description: |
+  Порт capybara 3.40.0 (github.com/teamcapybara/capybara) на Crystal —
+  P0-подмножество для system-тестов: Session DSL (visit/click_link/
+  click_button/fill_in/has_content?/has_selector?/find/all/evaluate_script/
+  go_back/go_forward/save_screenshot) поверх ChromiumDriver — собственного
+  минимального CDP-клиента (headless Chromium, websocket, без внешних
+  зависимостей). Оракул — настоящая Capybara 3.40.0 + selenium-webdriver
+  (oracle/capybara_cases.rb → capybara_expected.yml).
+
+authors:
+  - oleg
+
+dependencies:
+  railties_cr:
+    path: ../../rails.cr/railties.cr

@@ -1,0 +1,10 @@
+visit_root	/|Welcome|Welcome
+click_link	/next|Next page|Next page
+fill_in_submit	/greet|Hello, Crystal!
+has_content	true,false
+selector_count	3
+attribute	/next
+evaluate_script	4
+wait_reveal	true
+go_back_forward	/|Welcome||/next|Next page
+screenshot	present
