@@ -15,4 +15,5 @@ authors:
 
 dependencies:
   railties_cr:
-    path: ../../rails.cr/railties.cr
+    github: OrelSokolov/railties.cr
+    version: ~> 0.1.0
